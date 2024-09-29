@@ -25,10 +25,10 @@ This project is built with the following technologies:
   - Express
   - Redis
   
-Video Proof:-👇
+Video Proof:-👉
 https://drive.google.com/file/d/1YwtxcleCZSunXXaivZl7qFulXTe67P3g/view?usp=sharing
 
-Live Link:-👇
+Live Link:-👉
 https://exploding-kittens-v513.onrender.com
 
 Installation:-
@@ -37,7 +37,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mohammadamanpatel/emitrr-assignment.git
+   git clone https://github.com/mohammadamanpatel/Exploding-Kittens.git
    ```
 
 2. Navigate to the project directory:
