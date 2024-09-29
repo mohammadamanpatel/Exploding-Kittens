@@ -72,27 +72,43 @@ Folder Structure
 Here’s a brief overview of the project folder structure:
 
 ```
-├── emitrr-assignment/
-├── │
-├── ├── frontend/                  # Frontend application (React)
-├── │   ├── dist/                  # Compiled production files
-├── │   ├── public/                # Static files
-├── │   ├── src/                   # Source files for the React application
-├── │   ├── package.json           # Project metadata and dependencies
-├── │   ├── package-lock.json      # Lock file for exact dependency versions
-├── │   └── vite.config.js         # Vite configuration
-├── │
-├── ├── server/                    # Backend application
-├── │   ├── config/                # Configuration files
-├── │   ├── controllers/           # Request handlers for routes
-├── │   ├── routes/                # API route definitions
-├── │   ├── utils/                 # Utility functions and helpers
-├── │   │   └── deck.create.js     # Utility for creating a deck of cards
-├── │   └── server.js              # Entry point for the backend server
-├── │
-├── ├── .env                       # Environment variables for the project
-├── ├── .gitignore                 # Files and directories to be ignored by Git
-└── └── README.md                  # Project documentation
+emitrr-assignment/
+│
+├── frontend/                  # Frontend application (React)
+│   ├── dist/                  # Compiled production files
+│   ├── node_modules/          # Project dependencies
+│   ├── public/                # Static files
+│   ├── src/                   # Source files for the React application
+│   │   ├── components/        # Reusable React components
+│   │   │   ├── DrawCard.jsx      # Component for drawing a card
+│   │   │   ├── Game.jsx          # Component for the game logic
+│   │   │   ├── GameStart.jsx     # Component for starting the game
+│   │   │   ├── Home.jsx          # Home page component
+│   │   │   ├── LeaderBoard.jsx    # Component for displaying the leaderboard
+│   │   │   └── Usercreate.jsx     # Component for user creation
+│   │   ├── redux/             # Redux state management
+│   │   │   ├── GameSlice.js      # Slice for managing game state
+│   │   │   ├── UserSlice.js      # Slice for managing user state
+│   │   │   └── store.js          # Redux store configuration
+│   │   ├── config/            # Configuration files for the frontend
+│   │   │   └── axiosInstance.js # Axios instance for API requests
+│   │   ├── app.jsx            # Main application component
+│   │   ├── main.js            # Entry point for the React application
+│   ├── package.json           # Project metadata and dependencies
+│   ├── package-lock.json      # Lock file for exact dependency versions
+│   └── vite.config.js         # Vite configuration
+│
+├── server/                    # Backend application
+│   ├── config/                # Configuration files
+│   │   └── redis.connect.js    # Configuration for Redis connection
+│   ├── controllers/           # Request handlers for routes
+│   ├── routes/                # API route definitions
+│   ├── utils/                 # Utility functions and helpers
+│   │   └── deck.create.js     # Utility for creating a deck of cards
+│   └── server.js              # Entry point for the backend server
+├── .env                       # Environment variables for the project
+├── .gitignore                 # Files and directories to be ignored by Git
+└── README.md                  # Project documentation
 ```
 
 Contributing
