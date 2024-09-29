@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { startGame } from '../redux/gameSlice';
 import { useNavigate } from 'react-router-dom';
+import { startGame } from '../redux/gameSlice';
 
 const GameStart = () => {
   const dispatch = useDispatch();
