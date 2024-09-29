@@ -1,6 +1,6 @@
 # Emitrr Assignment
 
-A simple card game application built using the MERN stack and Vite for the frontend. This project allows users to create accounts, start a game, and draw cards. It utilizes Redux for state management, Redis for database, and is styled using Tailwind CSS for a responsive and modern look.
+A simple card game application built using the node/express.js for backend along with redis for data storing and react,Vite for the frontend along with local storage to save the progress .This project allows users to create accounts, start a game, and draw cards. It utilizes Redux for state management, Redis for database, and is styled using Tailwind CSS for a responsive and modern look.
 
 Features
 
