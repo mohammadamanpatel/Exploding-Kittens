@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { drawCard, incrementGameWins, startGame } from "../redux/gameSlice";
+import { drawCard, incrementGameWins, startGame } from "../redux/GameSlice";
 import { useNavigate } from "react-router-dom";
 
 const DrawCard = () => {
