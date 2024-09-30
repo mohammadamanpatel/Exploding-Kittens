@@ -28,7 +28,7 @@ This project is built with the following technologies:
 Video Proof:-👉
 https://drive.google.com/file/d/1YwtxcleCZSunXXaivZl7qFulXTe67P3g/view?usp=sharing
 
-Live Link:-👉
+Live Link (may take some time to cold start the server due to free tier service of render):-👉
 https://exploding-kittens-v513.onrender.com
 
 Installation:-
